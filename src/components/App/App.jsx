@@ -10,6 +10,10 @@ import { Statistics } from '../Statistics/Statistics';
 import friends from '../../data/friends';
 import { FriendList } from '../FriendList/FriendList';
 
+// Task-04 TransactionHistory ========================
+import items from '../../data/transactions';
+import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
+
 export const App = () => {
     return (
         <>
@@ -30,6 +34,9 @@ export const App = () => {
                 friends={friends}
             />
 
+            <TransactionHistory
+                items={items}
+            />
         </>
     );
 };

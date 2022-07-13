@@ -1,0 +1,25 @@
+.transactionHistory {
+    margin-top: 30px;
+    width: 300px;
+    border: 1px solid #0088ff;
+    border-collapse: collapse;
+}
+
+.cellTitle {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    background-color: #0088ff;
+    border-top: 2px solid #ffee00;
+    border-left: 2px solid #ffee00;
+    border-right: 2px solid #ffee00;
+}
+
+.cell {
+    text-align: center;
+    padding: 5px;
+    background-color: #ffee00;
+    border: 2px solid #0088ff;
+}
