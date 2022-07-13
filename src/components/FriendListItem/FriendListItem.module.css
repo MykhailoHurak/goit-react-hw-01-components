@@ -1,0 +1,38 @@
+.item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.item:nth-child(2n+1) {
+    background-color: #ffee00;
+}
+
+.item:nth-child(2n) {
+    background-color: #0088ff;
+    color: #ffffff;
+}
+
+.online,
+.offline {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00d500;
+    margin: 0 15px 0 15px;
+}
+
+.offline {
+    background-color: #ff3333;
+}
+
+.avatar {
+    display: block;
+}
+
+.name {
+    display: block;
+    padding-left: 20px;
+    font-weight: 500;
+}
